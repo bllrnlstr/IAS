@@ -1,17 +1,4 @@
-"""
-PROJECT 5: SECURE ENVIRONMENT CONFIGURATION (.env)
-Information Assurance and Security
---------------------------------------------------
-Security Features:
-  - Secrets loaded from .env file — never hardcoded
-  - .env file is never written to source control (gitignore reminder)
-  - Secret values masked in all output/logging
-  - Required variable enforcement (app won't start if missing)
-  - Type validation for all config values
-  - Encrypted .env option using Fernet
-  - Runtime secret rotation support
-  - Read-only config object (immutable after load)
-"""
+
 
 import os
 import re
