@@ -1,16 +1,4 @@
-"""
-PROJECT 4: SECURE DATABASE SYSTEM
-Information Assurance and Security
---------------------------------------------------
-Security Features:
-  - Parameterized queries (prevents SQL Injection)
-  - No raw string formatting in SQL
-  - Principle of Least Privilege (read-only vs admin roles)
-  - Sensitive data encrypted at rest (AES via Fernet)
-  - Audit log for all database operations
-  - Input validation before any DB interaction
-  - Safe error messages (no DB internals exposed)
-"""
+
 
 import sqlite3
 import secrets
