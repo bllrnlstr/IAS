@@ -1,14 +1,4 @@
-"""
-PROJECT 1: SECURE AUTHENTICATION SYSTEM
-Information Assurance and Security
---------------------------------------------------
-Security Features:
-  - Passwords hashed with SHA-256 + random salt
-  - Account lockout after failed login attempts
-  - Secure session tokens using secrets module
-  - Strong password policy enforcement
-  - Input sanitization and validation
-"""
+
 
 import hashlib
 import secrets
