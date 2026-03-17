@@ -1,15 +1,3 @@
-"""
-PROJECT 3: SECURE ERROR HANDLING SYSTEM
-Information Assurance and Security
---------------------------------------------------
-Security Features:
-  - No sensitive info leaked to users (generic messages)
-  - Detailed errors logged securely server-side only
-  - Unique error reference IDs for traceability
-  - Log file with timestamps and severity levels
-  - Exception chaining prevention (no internal traces exposed)
-  - Input sanitization before logging (prevent log injection)
-"""
 
 import logging
 import secrets
@@ -19,7 +7,7 @@ import traceback
 from datetime import datetime
 from functools import wraps
 
-# ── Log Configuration ─────────────────────────────────
+
 LOG_FILE = "secure_errors.log"
 
 logging.basicConfig(
