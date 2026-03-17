@@ -1,15 +1,4 @@
-"""
-PROJECT 2: SECURE INPUT VALIDATION SYSTEM
-Information Assurance and Security
---------------------------------------------------
-Security Features:
-  - Prevents SQL Injection via pattern detection
-  - Prevents XSS (Cross-Site Scripting) attacks
-  - Prevents Command Injection
-  - HTML entity encoding for safe output
-  - Strict type and length enforcement
-  - Whitelist-based field validation
-"""
+
 
 import re
 import html
